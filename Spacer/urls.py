@@ -30,6 +30,7 @@ urlpatterns = [
     path('admin/', admin.site.urls, name='admin-site'),
     path('home/', include("blog.urls")),
     path('flashcards/', include("flashcards.urls")),
+    path('study/', include("study.urls")),
 ]
 
 if settings.DEBUG:
