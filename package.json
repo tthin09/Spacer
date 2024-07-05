@@ -1,7 +1,7 @@
 {
   "name": "spacer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Here we want our studying experience addicting as you're playing games",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

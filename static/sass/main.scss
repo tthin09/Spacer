@@ -1,4 +1,17 @@
-// custom variables
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-colors: (
+    "purple": #7D41F4,
+    "light-purple": #CFB9FA,
+);
+
+.nav * > .nav-link {
+    color: #7D41F4
+}
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
 
 // import bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap';
